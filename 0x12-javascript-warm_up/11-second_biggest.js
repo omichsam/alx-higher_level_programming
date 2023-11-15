@@ -1,8 +1,10 @@
 #!/usr/bin/node
-if (process.argv.length <= 3) {
-  console.log('0');
+const process = require('process');
+const argv = process.argv;
+const argc = process.argv.length;
+if (argc < 4) {
+  console.log(0);
 } else {
-  const arr = process.argv.slice(2).map(Number);
-  const second = arr.sort(function (a, b) { return b - a; })[1];
-  console.log(second);
+  const array = argv.slice(2).sort((a, b) => a - b).reverse();
+  console.log(array[1]);
 }
