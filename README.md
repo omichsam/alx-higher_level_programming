@@ -2,7 +2,7 @@
 **Higher-level programming & Algorithm**
 
 ## Author's Details
-Name: *SAMSON MICHIRA.*
+Name: *SAMSON MICHIRA*
 
 Email: *omichsam@gmail.com*
 
